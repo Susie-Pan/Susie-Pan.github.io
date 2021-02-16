@@ -1,0 +1,80 @@
+html {
+
+}
+
+body {
+	width: 850px;
+	margin: 1.8em auto; /* this + a defined width, centers the body content */
+	border-color:#A374B8;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-image:url(purple.jpg);
+	background-position: bottom;
+}
+
+h1 {
+	text-align: center;
+	background-color: #D685E3;
+	color: #52208B;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(blue.jpg);
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+h2 {
+	text-align: justify;
+	padding: 0px;
+	color: #79169B;
+	background-image: url(blue.jpg);
+	width: 500px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+h3 {
+	color: #FF6;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #303;
+	border-style: solid;
+	border-width: 5px;
+}
+#nav{
+	list-style-type: none;
+	background-color:#A04F6F;
+	width:560px;
+	padding:8px;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 1.8em auto; /* this + a defined width, centers the body content */
+	border-color:aliceblue;
+	border-style: solid;
+	border-width: 3px;
+}
+#nav li{
+	display:inline;
+}
+#nav a {
+	text-decoration: none;
+	background-color:#A04F6F;
+	color:#FFFFFF;
+	Padding:8px; 
+}
+#nav a:hover{
+	text-decoration:underline;
+	background-color:#D4A60E;
+}
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+	text-decoration: none;
+	color:aliceblue; 
+}
+
+a:hover {
+	text-decoration:underline; 
+	color: #006;
+}
